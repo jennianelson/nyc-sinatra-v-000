@@ -1,0 +1,5 @@
+<h1>Historical Figures in NYC</h1>
+<%Figure.all.each do |figure|%>
+  <h3><%=figure.name%></h3>
+  <a href="/figures/<%=figure.id%>">More details about this figure</a>
+  <%end%>
